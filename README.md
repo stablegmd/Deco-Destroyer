@@ -1,23 +1,47 @@
-# {{ name }}
-This is where she makes a mod.
+# Deco Destroyer
 
-<img src="logo.png" width="150" alt="the mod's logo" />
+A powerful tool that can turn a fully decorated level into a clean and customisable layout.
 
-*Update logo.png to change your mod's icon (please)*
+Made by **StableGMD**.
 
-## Getting started
-We recommend heading over to [the getting started section on our docs](https://docs.geode-sdk.org/getting-started/) for useful info on what to do next.
+## What does it do?
 
-## Build instructions
-For more info, see [our docs](https://docs.geode-sdk.org/getting-started/create-mod#build)
-```sh
-# Assuming you have the Geode CLI set up already
-geode build
-```
+Deco Destroyer comes with a few useful tools for working in the Geometry Dash editor:
 
-# Resources
-* [Geode SDK Documentation](https://docs.geode-sdk.org/)
-* [Geode SDK Source Code](https://github.com/geode-sdk/geode/)
-* [Geode CLI](https://github.com/geode-sdk/cli)
-* [Bindings](https://github.com/geode-sdk/bindings/)
-* [Dev Tools](https://github.com/geode-sdk/DevTools)
+- **Delete All Objects** – Removes decoration objects, triggers and no-touch objects from your level.
+- **Reveal Hidden Objects** – Makes hidden objects visible again.
+- **Reset Custom HSV** – Resets custom HSV values.
+- **Static Object Colour** – Changes objects to a colour you choose in the mod's settings.
+- **Toggle Static Colour** – Don't want automatic recolouring? Just turn it off whenever you want.
+
+## Installation
+
+1. Make sure you have [Geode](https://geode-sdk.org/) installed.
+2. Download the latest version from the [Releases page](https://github.com/stablegmd/Deco-Destroyer/releases).
+3. Open the `.geode` file to install it.
+4. Restart Geometry Dash if needed.
+
+## Compatibility
+
+Built for Geometry Dash 2.2081.
+
+Builds are available for:
+- macOS
+- Windows
+- iOS
+- Android 32-bit
+- Android 64-bit
+
+## Made with
+
+- [Geode SDK](https://github.com/geode-sdk/geode)
+
+## Developer
+
+**StableGMD**
+
+[GitHub Repository](https://github.com/stablegmd/Deco-Destroyer)
+
+---
+
+*Always save a backup of your level before using tools that delete objects. Better safe than sorry!* 
