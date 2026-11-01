@@ -1,0 +1,33 @@
+
+{
+    "geode": "5.11.2",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "deco.destroyer",
+    "name": "Deco Destroyer",
+    "version": "1.0.0-beta.1",
+    "developer": "StableGMD",
+    "description": "DESTROYS all decoration and non-interactive objects with the click of a button. Turn any popular level into a playable layout in seconds.",
+    "dependencies": {
+        "geode.node-ids": ">=v1.23.3"
+    },
+    "settings": {
+        "static-obj-colour": {
+            "name": "Static Obj Colour",
+            "description": "Enable static colouring of surviving objects.",
+            "type": "bool",
+            "default": true
+        },
+        "object-colour": {
+            "name": "Object Colour",
+            "description": "Choose the base and detail colour.",
+            "type": "rgb",
+            "default": "#808080",
+            "enable-if": "static-obj-colour"
+        }
+    }
+}

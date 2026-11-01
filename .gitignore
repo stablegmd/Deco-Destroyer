@@ -1,0 +1,4 @@
+build/
+*.backup
+.DS_Store
+*.geode
