@@ -45,3 +45,11 @@ Builds are available for:
 ---
 
 *Always save a backup of your level before using tools that delete objects. Better safe than sorry!* 
+
+## Examples
+
+**Before – Vehemence**
+![Before](images/Vehemence.jpg)
+
+**After – Vehemence Layout**
+![After](images/Vehemence%20Layout.jpg)
